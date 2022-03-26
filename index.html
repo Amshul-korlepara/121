@@ -1,0 +1,69 @@
+<html>
+<head>
+  <title>Real Time Image Identification App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <ol>
+        <center>
+        <div class="test_image_and_result col-xs-6 ">
+            <li class="col=sm-4 col-xs-12 btn ">
+                <b>Test Image - </b>
+                <img src="mouse.jpg" class=" hi img-responsive">               
+            </li>
+            <h5  class="col-sm-4 col-xs-12 google">output on <b>GOOGLE LENS</b>-<span>microsoft mouse</span></h5><br>
+            <hr>
+            <h5 class="col-sm-4 col-xs-12 mobile">output on <b>Mobilenet Model</b>-<span>computer mouse</span></h5>
+            <div class="mini_result col-xs-12"><h4>result - </h4><hr><h4>both are accurate</h4></div>
+            </div>
+          </center>
+          <center>
+            <div class="test_image_and_result col-xs-6 ">
+                <li class="col=sm-4 col-xs-12 btn ">
+                    <b>Test Image - </b>
+                    <img src="spaceship.jpg" class=" hi img-responsive">               
+                </li>
+                <h5  class="col-sm-4 col-xs-12 google">output on <b>GOOGLE LENS</b>-<span><br>nasa spaceshuttle</span></h5><br>
+                <hr>
+                <h5 class="col-sm-4 col-xs-12 mobile">output on <b>Mobilenet Model</b>-<span>spaceshuttle</span></h5>
+                <div class="mini_result col-xs-12"><h4>result - </h4><hr><h4> both are accurate</h4></div>
+                </div>
+              </center>
+              <center>
+                <div class="test_image_and_result col-xs-6 ">
+                    <li class="col=sm-4 col-xs-12 btn ">
+                        <b>Test Image - </b>
+                        <img src="spriggan.jpg" class=" hi img-responsive">               
+                    </li>
+                    <h5  class="col-sm-4 col-xs-12 google">output on <b>GOOGLE LENS</b>-<span><br>turbo spyzen</span></h5><br>
+                    <hr>
+                    <h5 class="col-sm-4 col-xs-12 mobile">output on <b>Mobilenet Model</b>-<span><br>mask</span></h5>
+                    <div class="mini_result col-xs-12"><h4>result - </h4><hr><h4>google lens is more accurate</h4></div>
+                    </div>
+                  </center>
+                  <center>
+                    <div class="test_image_and_result col-xs-6 ">
+                        <li class="col=sm-4 col-xs-12 btn ">
+                            <b>Test Image - </b>
+                            <img src="nintendobox.jpg" class=" hi img-responsive">               
+                        </li>
+                        <h5  class="col-sm-4 col-xs-12 google">output on <b>GOOGLE LENS</b>-<span><br>nintendo box</span></h5><br>
+                        <hr>
+                        <h5 class="col-sm-4 col-xs-12 mobile">output on <b>Mobilenet Model</b>-<span><br>switch</span></h5>
+                        <div class="mini_result col-xs-12"><h4>result - </h4><hr><h4>google lens is more accurate</h4></div>
+                        </div>
+                      </center>
+                      <center>
+                      <h4 class="btn btn-primary">I have tested 5 images <br> google lens identified  all 5 of them while 3 in mobile nintendo<br>I think google lens is better</h4>
+                    </center>
+    </ol>
+</body>
+</html>
